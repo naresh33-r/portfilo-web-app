@@ -1,0 +1,16 @@
+import{c as s,j as e,P as i,m as t}from"./index-BV5eQVne.js";import{S as r}from"./ScrollReveal-DjxBf3J3.js";import{E as a}from"./external-link-C4p8dzsh.js";import{G as c}from"./github-DBwEq6fK.js";import{L as l}from"./linkedin-CS7fqFmq.js";/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const d=s("ChefHat",[["path",{d:"M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z",key:"1qvrer"}],["path",{d:"M6 17h12",key:"1jwigz"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const m=s("Code",[["polyline",{points:"16 18 22 12 16 6",key:"z7tu5w"}],["polyline",{points:"8 6 2 12 8 18",key:"1eg1df"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const x=s("Terminal",[["polyline",{points:"4 17 10 11 4 5",key:"akl6gq"}],["line",{x1:"12",x2:"20",y1:"19",y2:"19",key:"q2wloq"}]]),h=[{name:"GitHub",icon:"github",url:"https://github.com",color:"#7c3aed",description:"Open source contributions & projects"},{name:"LeetCode",icon:"code",url:"https://leetcode.com/u/nareshraina/",color:"#f59e0b",description:"100+ problems solved"},{name:"Geeksforgeeks",icon:"chef-hat",url:"https://www.geeksforgeeks.org/profile/nareshmar9ct3",color:"#06b6d4",description:"50+ problems solved"},{name:"LinkedIn",icon:"linkedin",url:"https://www.linkedin.com/in/naresh448",color:"#3b82f6",description:"Professional network & updates"}],p={github:e.jsx(c,{size:28}),code:e.jsx(m,{size:28}),"chef-hat":e.jsx(d,{size:28}),terminal:e.jsx(x,{size:28}),linkedin:e.jsx(l,{size:28})},k=()=>e.jsx(i,{type:"zoom",children:e.jsx("div",{className:"min-h-screen pt-24 pb-16",children:e.jsxs("div",{className:"container mx-auto px-4 md:px-6",children:[e.jsx(r,{children:e.jsxs("div",{className:"text-center mb-16",children:[e.jsx("h1",{className:"section-heading",children:"Coding Profiles"}),e.jsx("p",{className:"section-subheading mx-auto",children:"Find me across the web."})]})}),e.jsx("div",{className:"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto",children:h.map((o,n)=>e.jsx(r,{delay:n*.1,children:e.jsxs(t.a,{href:o.url,target:"_blank",rel:"noopener noreferrer",className:"glass rounded-2xl p-6 flex flex-col items-center text-center group gradient-border block",whileHover:{y:-6,scale:1.03},transition:{duration:.3},children:[e.jsx("div",{className:"w-16 h-16 rounded-2xl flex items-center justify-center mb-4 transition-all group-hover:scale-110",style:{backgroundColor:`${o.color}20`,color:o.color,boxShadow:`0 0 20px ${o.color}30`},children:p[o.icon]}),e.jsx("h3",{className:"text-lg font-semibold text-foreground mb-1",children:o.name}),e.jsx("p",{className:"text-sm text-muted-foreground mb-3",children:o.description}),e.jsx(a,{size:14,className:"text-muted-foreground group-hover:text-primary transition-colors"})]})},o.name))})]})})});export{k as default};
